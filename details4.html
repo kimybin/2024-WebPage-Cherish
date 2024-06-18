@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my favorite space</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gugi&family=Moirai+One&display=swap" rel="stylesheet">
+</head> 
+
+<body data-bs-spy="scroll" data-bs-target="#nav-space">
+
+<!-- 봉은사 소개 섹션 시작 -->
+<div class="text-center py-5" id="about-bongeunsa">
+    <h2 class="fw-bold">봉은사</h2>
+    <p class="lead text-muted">마음의 안정을 찾고 싶거나 한국의 전통을 느끼고 싶을 땐, 봉은사로.</p>
+</div>
+
+<div class="row justify-content-center align-items-center mb-5" id="about-bongeunsa">
+    <div class="col-md-5">
+        <img src="images/space4-1.jpeg" alt="봉은사 메인사진" class="img-fluid">
+    </div>
+    <div class="col-md-7 col-lg-5 px-lg-5">
+        <h3 class="fw-bold mb-3">봉은사</h3>
+        <p class="lh-lg">봉은사는 삼성역, 코엑스 앞에 위치해 있는 사찰입니다.</p>
+        <p class="lh-lg">저는 무교이지만, 평소 절에 다녀오는 것을 좋아하는데요. 특히나 코엑스에 다녀올 일이 있으면 꼭 봉은사에 들리곤 합니다. </p>
+        <p class="lh-lg">도시 한복판에 사찰이라니. 너무 색다르고 매력적으로 느껴지지 않나요 ? 뻥 뚤린 자연과 평화로운 분위기를 느낄 수 있는
+            아름다운 장소라고 생각합니다. 저는 꼭 봉은사에서 템플스테이를 해보고 싶더라고요.
+            <br>바쁜 일상 속 평화와 안정을 느낄 수 있는 봉은사를 여러분들께 소개합니다 !
+        </p>
+    </div>
+</div> 
+</section>
+<!-- 봉은사 소개 섹션 끝 -->
+
+<!-- 지도 섹션 시작 -->
+<section class="py-5" id="map2">
+    <div class="container">
+        <div class="row p-4 align-items-center">
+    
+            <div class="col-lg-9  text-white">
+                <h2 class="fw-bold mb-3">봉은사</h2>
+                <p>코엑스 앞에 웅장한 모습으로 위치해 있어서 굉장히 쉽게 찾으실 수 있을 거랍니다. <br>
+                    그래도 네이버 지도로 길 헤메지 마세요 ! 
+                </p>
+            </div>
+    
+            <div class="col-lg-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning px-4" onclick="window.location.href='https://naver.me/FpxnnM7x'">
+                    지도
+                </button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- 지도 섹션 끝 -->
+
+<!-- 캐러셀 섹션 시작 -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bo-portfolio1.jpeg" class="d-block w-100" alt="봉은사1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bo-portfolio2.jpeg" class="d-block w-100" alt="봉은사2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bo-portfolio3.jpeg" class="d-block w-100" alt="봉은사3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- 캐러셀 섹션 끝 -->
+
+<!-- Bootstrap JavaScript Bundle with Popper (Bootstrap 5) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+

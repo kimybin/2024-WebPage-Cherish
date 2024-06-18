@@ -1,0 +1,105 @@
+#home h1,
+#about-space h2,
+#site h2,
+#site h3,
+.black-han-sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#home h4,
+#home p,
+#about-space p,
+#site p,
+.gamja-flower-regular {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,
+h3,
+.moirai-one-regular {
+    font-family: "Moirai One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+p,
+.gugi-regular {
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#about-bar{
+    background-color: pink;
+}
+
+#about-bread{
+    background-color: rgb(255, 221, 0);
+}
+
+#about-cafe{
+    background-color: rgba(0, 110, 255, 0.332);
+}
+
+#about-bongeunsa{
+    background-color: rgba(6, 128, 0, 0.255);
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #0713ff !important;
+}
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+header {
+    .center-text {
+        text-align: center;
+    } 
+}
+
+#sns1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/sns1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sns2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/sns2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#map1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/map1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#map2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/map2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#map1 {
+    margin-bottom: 50px; /* 하단 마진 추가 */
+}
+
+#map2 {
+    margin-bottom: 50px; /* 하단 마진 추가 */
+}
+
+#carouselExampleIndicators {
+    margin-top: 50px; /* 상단 마진 추가 */
+}
